@@ -15,8 +15,8 @@
       become: yes
       copy:
         src:  /home/farmanahmed888/Downloads/full-stack-estate-main/docker-compose.yml
-        dest: /home/farmanahmed888/Downloads/full-stack-estate-main/docker-compose.yml
+        dest: /full-stack-estate-main/docker-compose.yml
 
     - name: Start Docker Compose services
       become: yes
-      command: docker-compose -f /home/farmanahmed888/Downloads/full-stack-estate-main/docker-compose.yml up -d
+      command: docker-compose -f /full-stack-estate-main/docker-compose.yml up -d
