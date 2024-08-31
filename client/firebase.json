@@ -1,0 +1,12 @@
+{
+    "hosting": {
+      "site": "real-estate-corp",
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  }
+  
